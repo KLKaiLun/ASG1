@@ -8,10 +8,10 @@ I am creating a website for a band which is called "Imagine Dragons". The purpos
 Some potential features to include in website:
 <ul>
   <li>-Show band's history and band member's names</li>
-<li>-Show photos of Band members and photos of albums</li>
-<li>-Publicise the band's upcoming shows or tours so that fans are well-informed</li>
-<li>-Provide links to the band's social media profiles</li>
-<li>-Show band's merchandise and price of it</li>
-<li>-Show band's music videos</li>
+  <li>Show photos of Band members and photos of albums</li>
+  <li>Publicise the band's upcoming shows or tours so that fans are well-informed</li>
+  <li>Provide links to the band's social media profiles</li>
+  <li>Show band's merchandise and price of it</li>
+  <li>Show band's music videos</li>
 </ul>
 </p>
