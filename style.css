@@ -1,0 +1,16 @@
+.header {
+    padding: 20px;
+    text-align: left;
+    background: black;
+    color: white;
+}
+img {
+    width: 150px;
+    display: block;
+    margin-right: auto;
+}
+.tourinfo.img {
+    width: 500px;
+    display: block;
+    margin-right: auto;
+}
