@@ -1,17 +1,62 @@
 .header {
+    height: 200px;
     align-items: center;
     background: black;
     color: white;
     display: flex;
 }
-img {
+.img1 {
     width: 200px;
     height: auto;
     display: block;
     padding: 20px;
 }
-.img1 {
+.img2{
+    width: 300px;
+    display: block;
+    margin-right: auto;
+}
+.img3 {
     width: 800px;
     display: block;
     margin-right: auto;
+}
+.singer{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+.rg{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+.lg{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+.drummer{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+.key{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+.bass{
+    width: 10%;
+    height: 10%;
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.history {
+    width: 500px;
+    height: 550px;
+    text-align: justify;
+    display: block;
 }
