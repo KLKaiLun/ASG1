@@ -13,6 +13,6 @@ Some potential features to include in website:
     <li>Publicise the band's upcoming shows or tours so that fans are well-informed
     <li>Provide links to the band members' social media profiles</li>
     <li>Show band's merchandise and prices</li>
-    <li>Show band's music videos
+    <li>Show some of band's music videos
 </ul>
 </p>
