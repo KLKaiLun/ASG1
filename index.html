@@ -10,6 +10,31 @@
   <section class="container">
     <div class = "header">
       <img src="https://fontmeme.com/images/Maroon-5-Logo.jpg" alt="logo" class = "img1">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index2.html">Tours</a></li>
+        <li><a href="index3.html">Music</a></li>
+        <li><a href="index4.html">Merchandise</a></li>
+      </ul>
+      <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+  
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+  
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+  
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
     </div>
     <div class = "history">
       <h1><b>Band History</b></h1>
@@ -34,31 +59,6 @@
       <img class="key" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/PJ_Morton_2011.jpg" alt="Keyboardist/Backing Vocalist">
       <p1>Bass Guitarist: Sam Farrar</p1>
       <img class="bass" src="https://www.themoviedb.org/t/p/w235_and_h235_face/muQO7zCfujHwHcv5altV6MBVTJu.jpg" alt="Bass Guitarist">
-    </div>
-    <div class = "Albums">
-      <h1><b>Albums</b></h1>
-      <p1>V (2014)</p1>
-      <img class="v" src="https://upload.wikimedia.org/wikipedia/en/5/53/Maroon_5_-_V_%28Official_Album_Cover%29.png" alt="V">
-    </div>
-    <div class = "tourinfo">
-      <img src = "https://www.maroon5.com/sites/g/files/aaj10126/f/promo/202112/tour22DESK.jpg" alt="tour" class = "img3">
-      <h1><b>Tour Dates and Location</b></h1>
-      <p class = "tour">
-          <ul>
-              <li>NOV 28, 2022 SINGAPORE NATIONAL STADIUM KALLANG, SINGAPORE</li>
-              <li>NOV 30, 2022 GOCHEOK SKY DOME SEOUL, SOUTH KOREA</li>
-              <li>DEC 3, 2022 TOKYO DOME TOKYO, JAPAN </li>
-              <li>DEC 4, 2022 TOKYO DOME TOKYO, JAPAN</li>
-              <li>DEC 6, 2022 OSAKA DOME OSAKA, JAPAN</li>
-          </ul>
-      </p>
-    </div>
-    <div class = "Musicvideos">
-      <h1><b>Music Videos</b></h1>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ANS9sSJA9Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class = "Merch">
-      <h1><b>Merchandise</b></h1>
     </div>
   </section>
 </body>
