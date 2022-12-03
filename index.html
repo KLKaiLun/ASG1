@@ -7,35 +7,17 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
-  <section class="container">
-    <div class = "header">
-      <img src="https://fontmeme.com/images/Maroon-5-Logo.jpg" alt="logo" class = "img1">
+    <header>
+      <img class = "img1" src="https://fontmeme.com/images/Maroon-5-Logo.jpg" alt="logo">
       <ul>
         <li><a href="index.html">About</a></li>
         <li><a href="index2.html">Tours</a></li>
         <li><a href="index3.html">Music</a></li>
         <li><a href="index4.html">Merchandise</a></li>
       </ul>
-      <script>
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {myFunction()};
-  
-        // Get the navbar
-        var navbar = document.getElementById("navbar");
-  
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-  
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-      </script>
-    </div>
+    </header>
+    <script src="script.js"></script>
+
     <div class = "history">
       <h1><b>Band History</b></h1>
       <img src="https://i.scdn.co/image/ab6761610000e5eb288ac05481cedc5bddb5b11b" alt="history" class="img2">
@@ -60,6 +42,5 @@
       <p1>Bass Guitarist: Sam Farrar</p1>
       <img class="bass" src="https://www.themoviedb.org/t/p/w235_and_h235_face/muQO7zCfujHwHcv5altV6MBVTJu.jpg" alt="Bass Guitarist">
     </div>
-  </section>
 </body>
 </html>

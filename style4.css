@@ -2,32 +2,33 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
-.header {
-    height: 150px;
+header {
+    height: 73px;
     align-items: center;
     display: flex;
     overflow: hidden;
     background-color: black;
     justify-content: space-between;
-    z-index: 10;
+    z-index: 100;
+    transition: 1s;
 }
-.header li {
+header li {
     list-style: none;
     align-items: center;
     padding: 62px 62px;
     font-size: 30px;
     display: inline-block;
 }
-.header li a{
+header li a{
     color: white;
     text-decoration: none;
 }
-.header a {
+header a {
     padding: 5px 0;
     position: relative;
     transition: all 0.3s ease-in-out;
 }
-.header a:before{
+header a:before{
     content: '';
     background: white;
     display: block;
@@ -45,4 +46,11 @@ a:hover::before{
     width: 300px;
     height: auto;
     display: block;
+}
+header.sticky {
+    padding: 20px 0;
+}
+header.sticky .img1,
+header.sticky ul li a{
+    color: white;
 }
