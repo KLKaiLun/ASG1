@@ -51,15 +51,47 @@ a:hover::before{
     height: auto;
     display: block;
 }
+.jane{
+    display: flex;
+    border: 2px solid black;
+}
+.long{
+    display: flex;
+    border: 2px solid black;
+}
+.call{
+    display: flex;
+    border: 2px solid black;
+}
+.hands{
+    display: flex;
+    border: 2px solid black;
+}
+.ob{
+    display: flex;
+    border: 2px solid black;
+}
+.blues{
+    display: flex;
+    border: 2px solid black;
+}
 .v {
-    width: 20%;
-    height: 20%;
-    display: block;
+    display: flex;
+    border: 2px solid black;
+}
+.jordi{
+    display: flex;
+    border: 2px solid black;
+}
+.albums{
+    padding-top: 60px;
+}
+.col {
+    width:25%;
+    float: left;
+    padding: 10px;
 }
 header.sticky {
     padding: 20px 0;
 }
-header.sticky .img1,
-header.sticky ul li a{
-    color: white;
-}
+

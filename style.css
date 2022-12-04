@@ -39,7 +39,7 @@ header a:before{
     position: absolute;
     bottom: 0px;
     left: 0;
-    width: 0;
+    width: 0px;
     height: 3px;
     transition: all 0.3s ease-in-out;
 }
@@ -53,39 +53,46 @@ a:hover::before{
 }
 .img2{
     width: 100%;
-    height: 500px;
+    height: 700px;
     display: flex;
     object-fit: cover;
 }
 .singer{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
 .rg{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
 .lg{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
 .drummer{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
 .key{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
 }
 .bass{
-    width: 10%;
-    height: 10%;
-    display: block;
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.column {
+    width: 30%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 .history {
     text-align: justify;
@@ -95,8 +102,13 @@ a:hover::before{
 header.sticky {
     padding: 20px 0;
 }
-header.sticky .img1,
-header.sticky ul li a{
-    color: white;
+.social-links {
+    font-size: 50px;
+    color: grey;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.social-links:hover {
+    color: blue;
 }
 

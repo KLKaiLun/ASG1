@@ -10,9 +10,9 @@ Some potential features to include in website:
 <ul>
     <li>Show band's history and band member names</li>
     <li>Show photos of Band members and photos of albums</li>
-    <li>Publicise the band's upcoming shows or tours so that fans are well-informed
-    <li>Provide links to the band members' social media profiles</li>
+    <li>Publicise the band's upcoming shows or tours so that fans are well-informed</li>
+    <li>Provide link to the band's social media profile</li>
     <li>Show band's merchandise and prices</li>
-    <li>Show some of band's music videos
+    <li>Show some of band's music videos</li>
 </ul>
 </p>

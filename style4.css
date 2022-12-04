@@ -1,8 +1,13 @@
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
+    background-color: rgb(254, 216, 222);
 }
-header {
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 73px;
     align-items: center;
     display: flex;
@@ -35,7 +40,7 @@ header a:before{
     position: absolute;
     bottom: 0px;
     left: 0;
-    width: 0;
+    width: 0px;
     height: 3px;
     transition: all 0.3s ease-in-out;
 }
@@ -50,7 +55,36 @@ a:hover::before{
 header.sticky {
     padding: 20px 0;
 }
-header.sticky .img1,
-header.sticky ul li a{
-    color: white;
+.Merch{
+    padding-top: 60px;
+}
+.merch{
+    width:20%;
+    height:20%;
+    transition: 0.5s;
+}
+.product{
+    padding:30px;
+}
+.Hoodie:hover{
+    color: red;
+}
+.Hoodie2:hover{
+    color: red;
+}
+.BlackTee:hover{
+    color: red;
+}
+.Hat:hover{
+    color: red;
+}
+.Candle:hover{
+    color: red;
+}
+.Tank:hover{
+    color: red;
+}
+.Column{
+    float: left;
+    width: 50%;
 }
