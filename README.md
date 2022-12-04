@@ -13,6 +13,5 @@ Some potential features to include in website:
     <li>Publicise the band's upcoming shows or tours so that fans are well-informed</li>
     <li>Provide link to the band's social media profile</li>
     <li>Show band's merchandise and prices</li>
-    <li>Show some of band's music videos</li>
 </ul>
 </p>
