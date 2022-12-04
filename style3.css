@@ -71,11 +71,11 @@ a:hover::before{
     display: flex;
     border: 2px solid black;
 }
-.blues{
+.v {
     display: flex;
     border: 2px solid black;
 }
-.v {
+.blues{
     display: flex;
     border: 2px solid black;
 }
